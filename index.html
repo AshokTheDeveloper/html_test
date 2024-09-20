@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One project</title>
+    <link href="index.css" rel="stylesheet" />
+    <style>
+      h1 {
+        font-size: 48px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hyperlinks in HTML</h1>
+    <a href="https://www.google.com" target="_parent">Google</a>
+    <a href="https://www.amazon.in"
+      ><button type="button">Amazon button</button></a
+    >
+    <a href="https://www.flipkart.com"
+      ><img
+        src="https://www.webstyleguide.com/wsg3/figures/6-page-structure/6-1-700.jpg"
+        alt="flipkart image"
+        width="700"
+    /></a>
+    <div>
+      <dl>
+        <dt>HTML</dt>
+        >
+        <dd>HTML is a basic markup language to create web pages.</dd>
+        <dt>CSS</dt>
+        <dd>CSS adds styles to HTML document</dd>
+      </dl>
+    </div>
+    <p class="p" style="font-size: 38px">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque,
+      distinctio.
+    </p>
+    <small>Hello every one</small>
+    <div>
+      <input type="radio" name="gender" value="male" checked />
+      <input type="radio" name="gender" value="female" />
+    </div>
+    <label for="fruits">Choose a fruit:</label>
+    <select id="fruits">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="orange">Orange</option>
+    </select>
+    <label for="cars">Choose a car:</label>
+    <input list="car-list" id="cars" name="car" />
+    <datalist id="car-list">
+      <option value="BMW"></option>
+      <option value="Audi"></option>
+      <option value="Tesla"></option>
+      <option value="Mercedes"></option>
+    </datalist>
+    <div style="display: flex; flex-direction: column; align-items: flex-start">
+      <h1>HTML input elements</h1>
+      <input type="text" placeholder="text" />
+      <input type="search" placeholder="search" />
+      <input type="email" placeholder="email" />
+      <input type="password" placeholder="password" />
+      <input type="number" placeholder="number" />
+      <input type="radio" />
+      <input type="button" />
+      <input type="checkbox" />
+      <label for="ImageFile">Upload Image</label>
+      <input type="file" style="display: none" id="ImageFile" />
+      <input type="range" />
+      <input type="color" />
+    </div>
+    <button style="background: none; border: none; color: transparent">
+      Click Me
+    </button>
+    <div style="display: flex; flex-direction: column; align-items: flex-start">
+      <iframe
+        src="https://www.youtube.com/embed/PT0lYT4O9tQ"
+        width="600"
+        height="320"
+        allowfullscreen
+        frameborder="0"
+        loading="lazy"
+      ></iframe>
+      <iframe src="https://learning.ccbp.in"></iframe>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/3HkSttt1iJg?si=G2kLAbRY_Y7O4bXB"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: flex-start">
+      <picture>
+        <source
+          media="(min-width:650px)"
+          srcset="
+            https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple1-img.png
+          "
+        />
+        <source
+          media="(min-width:465px)"
+          srcset="
+            https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace1-img.png
+          "
+        />
+        <img
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi1-img.png"
+          alt="historical places"
+        />
+      </picture>
+    </div>
+    <div>
+      <nav>
+        <ol style="display: flex">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ol>
+      </nav>
+    </div>
+    <img
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace1-img.png"
+      draggable="true"
+    />
+    <div style="margin-bottom: 32px; margin-top: 32px">
+      <label for="cars">Choose a car:</label>
+      <select name="cars" id="cars" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select>
+    </div>
+    <div style="display: flex; flex-direction: column; margin-bottom: 20px">
+      <h1>HTML formatting elements</h1>
+      <b>b element Hello HTML world</b>
+      <strong
+        >strong element is used to bold text and tell the browser it's
+        important</strong
+      >
+      <i>i element is used to make the text itallic</i>
+      <em
+        >em element is used to make the text itallic and tell the browser it is
+        emphasized</em
+      >
+      <mark
+        >mark element is used to mark the text or hilight in special
+        interest</mark
+      >
+      <small
+        >small element is used to display the smaller text such as
+        copyrights</small
+      >
+      <del>Hellow</del>
+      <ins>this is the right time to say your feelings</ins>
+      <h1>H<sub>2</sub>+ O => H<sub>2</sub>O</h1>
+      <h1>(a + b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab</h1>
+    </div>
+    <div style="display: flex; flex-direction: column; margin-bottom: 20px">
+      <p>&lt; and &gt; are comparison operators</p>
+      <p>&equals;</p>
+      <p>&nbsp;</p>
+      <p>&alpha;</p>
+    </div>
+    <div style="display: flex; flex-direction: column; margin-bottom: 20px">
+      <meter value="1">60%</meter>
+      <p>The wonderful name of book is <cite>Wornderlae</cite></p>
+      <p>The <u>see</u> is full of fish.</p>
+      <details>
+        <summary>Details</summary>
+        Something small enough to escape casual notice.
+      </details>
+    </div>
+    <div>
+      <table border="1">
+        <caption>Student details</caption>
+        <tr>
+          <th colspan="4">Tech I am good at</th>
+        </tr>
+        <tr>
+          <th>S.N</th>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Rahul</td>
+          <td>Male</td>
+          <td>rahul@gamil.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ashok</td>
+          <td>Male</td>
+          <td>ashok@gmail.com</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
